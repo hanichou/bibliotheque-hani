@@ -14,6 +14,7 @@ def charger_bibliotheque():
                 return []
     return []
 
+print("Bienvenue dans la bibliothèque personnelle !")
 
 def sauvegarder_bibliotheque(bibliotheque):
     with open(FICHIER_BIBLIO, "w", encoding="utf-8") as f:
